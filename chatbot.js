@@ -51,7 +51,7 @@ function sendMessage() {
         "max_tokens": 100,
         "n": 1,
         "stop": null,
-        "temperature": 0.7
+        "temperature": 0.2
     });
 
     xhr.send(data);
